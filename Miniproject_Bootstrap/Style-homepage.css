@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: poppins;
+    font-weight: 700;
+    line-height: 49px;
+}
+.color-white {
+    color: white;
+    font-size: 36px;
+}
+
+.color-yellow {
+    color: #f7be16;
+    font-size: 36px;
+}
+@media screen and (max-width: 992px) {
+    .d-flex {
+      width: 90vw;
+    }
+  }
+
+  .search-btn {
+    background-color: #fff;
+    border-left: none;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  .icon-inner {
+    border: none;
+    background: none;
+    color: white;
+  }
+
+  .banner { 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   }
+
+  .banner-card {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .banner-img { 
+    object-position: top; 
+  }
+  
+  .banner-card:hover .banner-img { 
+    transform: scale(1.1); 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .banner-card .card-content {
+    position: absolute;
+    right:  80px;
+    bottom: 60px;
+    left:   80px;
+  }
+  
+  .banner-card .card-info {
+    display:     flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .banner-card .card-info div {
+    display:     flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .banner-card .card-title {
+    font-size: 3em;
+    font-family: poppins;
+    color: white;
+    text-shadow: 2px 0 2px #f7be16;
+  }
+
+  .movies { 
+    margin-bottom: 60px; 
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+
+/**
+ * filter bar style
+ */
+
+.filter-bar {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+  background: black;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.filter-bar select {
+  color: white;
+  font-size: small;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.filter-bar option { background: black ; }
+
+.filter-radios {
+  position: relative;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.filter-radios input { display: none; }
+
+.filter-radios label {
+  position: relative;
+  margin: 0 10px;
+  font-size: var(--fs-sm);
+  user-select: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.filter-radios input:checked + label,
+.filter-radios label:hover { color: black; }
+
+input ~ .checked-radio-bg {
+  /**
+   * variable for changing position and size
+   * besed on radio checked 
+   */
+  --width: 85px;
+  --left:   5px;
+
+  background: #f7be16;
+  position: absolute;
+  top:    5px;
+  left:  var(--left);
+  bottom: 5px;
+  width: var(--width);
+  border-radius: 10px;
+}
+
+#popular:checked ~ .checked-radio-bg {
+  --width: 73px;
+  --left:  90px;
+}
+
+#newest:checked ~ .checked-radio-bg {
+  --width:  81px;
+  --left:  163px;
+}

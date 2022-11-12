@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+    content ='width=device-width, intial-scale=1.0, maximum-scale=1.0, user-sclable=no'>
+    <title>Origin</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="Style-homepage.css"/>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+    .search-input {
+        border-right: none;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+      }
+
+    .search-btn {
+        background-color: #fff;
+        border-left: none;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+      }
+    </style>
+</head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <span class="color-white">Ori</span
+                ><span class= "color-yellow">gin</span>
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" 
+                    id="navbarSupportedContent"
+                    style="display: flex; justify-content: space-between;">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Homepage.html" 
+                    style="color: white; font-family: poppins; margin-right: 10px;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact-us.html" 
+                    style="color: white; font-family: poppins; margin-right: 10px">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    style="color: white; font-family: poppins;">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <form class="d-flex" role="search" style="width: 40vw; margin-right: 50px;">
+              <div class="input-group">
+                    <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                    <button class="input-group-text search-btn" id="basic-addon2"><i class="bi bi-search"></i></button>
+              </div>
+            </form>
+            <!-- Button trigger modal -->
+          <button
+          class="icon-inner"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#modalChomerce"
+          style="margin-right: 50px ;"
+        >
+        Sign in
+        <i class="bi bi-box-arrow-in-right"></i>
+        </button>
+        </div>
+        </nav>
+      <!--Alert -->
+        <div class="alert alert-info" role="alert" 
+        style="width: 30vw; height: 20px; margin-top: 5px; margin-left: 5px; display: flex; align-items: center;">
+         You Can Watch Movies With 4K Here!
+        </div>
+
+      <!-- John Wick -->
+        <section class="banner">
+            <div class="banner-card">
+              
+    
+              <img src="John-Wick-3.jpg" class="banner-img" alt="John-Wick-3">
+    
+              <div class="card-content">
+                <div class="card-info">
+    
+                  <div class="genre">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="16" 
+                    height="16" 
+                    fill="#f7be16" 
+                    class="bi bi-film" 
+                    viewBox="0 0 16 16">
+                      <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
+                    </svg> 
+                    <span style="margin-left: 5px; font-family: poppins; font-size: 15px;
+                    color: white;"> Action/Thriller </span>
+                  </div>
+    
+                  <div class="year">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="16" 
+                    height="16" 
+                    fill="#f7be16" 
+                    class="bi bi-calendar-heart-fill" 
+                    viewBox="0 0 16 16">
+                      <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5ZM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                    </svg>
+                    <span style="margin-left: 5px; font-family: poppins; font-size: 15px;
+                    color: white;">2019</span>
+                  </div>
+    
+                  <div class="duration">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="16" 
+                    height="16" 
+                    fill="#f7be16" 
+                    class="bi bi-stopwatch-fill" 
+                    viewBox="0 0 16 16">
+                      <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07A7.001 7.001 0 0 0 8 16a7 7 0 0 0 5.29-11.584.531.531 0 0 0 .013-.012l.354-.354.353.354a.5.5 0 1 0 .707-.707l-1.414-1.415a.5.5 0 1 0-.707.707l.354.354-.354.354a.717.717 0 0 0-.012.012A6.973 6.973 0 0 0 9 2.071V1h.5a.5.5 0 0 0 0-1h-3zm2 5.6V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 1 1 1 0z"/>
+                    </svg>
+                    <span style="margin-left: 5px; font-family: poppins; font-size: 15px;
+                    color: white;">2h 11m</span>
+                  </div>
+    
+                  <svg xmlns="http://www.w3.org/2000/svg" 
+                  width="20" 
+                  height="20" 
+                  fill="#f7be16" 
+                  class="bi bi-badge-4k-fill" 
+                  viewBox="0 0 16 16">
+                    <path d="M3.577 8.9v.03h1.828V5.898h-.062a46.781 46.781 0 0 0-1.766 3.001z"/>
+                    <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm2.372 3.715.435-.714h1.71v3.93h.733v.957h-.733V11H5.405V9.888H2.5v-.971c.574-1.077 1.225-2.142 1.872-3.202zm7.73-.714h1.306l-2.14 2.584L13.5 11h-1.428l-1.679-2.624-.615.7V11H8.59V5.001h1.187v2.686h.057L12.102 5z"/>
+                  </svg>
+                  <button type="button" class="btn btn-outline-warning" style="border-radius: 25px; height: 50px; width: 50px; margin-left: 25px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                    </svg>
+                  </button>
+                </div>
+              
+    
+                <h2 class="card-title">John Wick: Chapter 3 - Parabellum</h2>
+              </div>
+    
+            </div>
+          </section>
+
+          <!-- Breadcrumbs -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page" 
+              style="font-family: poppins; margin-left: 55px; margin-top: 10px;">Home</li>
+            </ol>
+          </nav>
+
+          <section class="movies">
+
+            <!--
+              - filter bar
+            -->
+            <div class="filter-bar">
+    
+              <div class="filter-dropdowns">
+    
+                <select name="genre" class="genre" style="background: none; border: none">
+                  <option value="all genres">All genres</option>
+                  <option value="action">Action</option>
+                  <option value="adventure">Adventure</option>
+                  <option value="animal">Animal</option>
+                  <option value="animation">Animation</option>
+                  <option value="biography">Biography</option>
+                </select>
+    
+                <select name="year" class="year" style="background: none; border: none">
+                  <option value="all years">All the years</option>
+                  <option value="2022">2022</option>
+                  <option value="2020-2021">2020-2021</option>
+                  <option value="2010-2019">2010-2019</option>
+                  <option value="2000-2009">2000-2009</option>
+                  <option value="1980-1999">1980-1999</option>
+                </select>
+    
+              </div>
+    
+              <div class="filter-radios">
+    
+                <input type="radio" name="grade" id="featured" checked>
+                <label for="featured">Featured</label>
+    
+                <input type="radio" name="grade" id="popular">
+                <label for="popular">Popular</label>
+    
+                <input type="radio" name="grade" id="newest">
+                <label for="newest">Newest</label>
+    
+                <div class="checked-radio-bg"></div>
+    
+              </div>
+              
+            </div>
+          
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="captain-marvel.jpg" class="card-img-top" alt="captain-marvel">
+                  <div class="card-body">
+                    <h5 class="card-title">Captain-Marvel</h5>
+                    <p class="card-text">Captain Marvel is an extraterrestrial Kree warrior who finds herself caught in the middle of an intergalactic battle between her people and the Skrulls...</p>
+                    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#captainmarvel">Details</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="spider-men.jpg" class="card-img-top" alt="spider-men">
+                  <div class="card-body">
+                    <h5 class="card-title">Spider Man No Way Home</h5>
+                    <p class="card-text">With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero...</p>
+                    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#spiderman">Details</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="eternals.jpg" class="card-img-top" alt="eternals">
+                  <div class="card-body">
+                    <h5 class="card-title">Eternals</h5>
+                    <p class="card-text">The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.</p>
+                    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eternals">Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 15px ;">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="dark-knight.jpg" class="card-img-top" alt="dark-knight">
+                  <div class="card-body">
+                    <h5 class="card-title">Dark-Knight</h5>
+                    <p class="card-text">With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City...</p>
+                    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#darkknight">Details</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="endgame.jpg" class="card-img-top" alt="Endgame">
+                  <div class="card-body">
+                    <h5 class="card-title">Avenger Endgame</h5>
+                    <p class="card-text">Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers...</p>
+                    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#endgame">Details</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="shang-chi.jpg" class="card-img-top" alt="shang-chi">
+                  <div class="card-body">
+                    <h5 class="card-title">Shang-Chi</h5>
+                    <p class="card-text">Martial-arts master Shang-Chi confronts the past he thought he left behind when he's drawn into the web of the mysterious Ten Rings organization.</p>
+                    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shang-chi">Details</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!-- Modal -->
+<div class="modal fade" 
+id="captainmarvel" 
+tabindex="-1" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Captain-Marvel</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/0LHxvxdRnYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Captain Marvel is an extraterrestrial Kree warrior who finds herself caught in the middle of an intergalactic battle between her people and the Skrulls. Living on Earth in 1995, she keeps having recurring memories of another life as U.S. Air Force pilot Carol Danvers. With help from Nick Fury, Captain Marvel tries to uncover the secrets of her past while harnessing her special superpowers to end the war with the evil Skrulls.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button href="https://youtu.be/0LHxvxdRnYc" type="button" class="btn btn-primary">Play</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" 
+id="spiderman" 
+tabindex="-1" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Spider-Man No Way Home</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button href="https://youtu.be/0LHxvxdRnYc" type="button" class="btn btn-primary">Play</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" 
+id="eternals" 
+tabindex="-1" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Eternals</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/x_me3xsvDgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button href="https://youtu.be/0LHxvxdRnYc" type="button" class="btn btn-primary">Play</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" 
+id="darkknight" 
+tabindex="-1" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Dark-Knight</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/GokKUqLcvD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button href="https://youtu.be/0LHxvxdRnYc" type="button" class="btn btn-primary">Play</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" 
+id="endgame" 
+tabindex="-1" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Avenger-Endgame</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button href="https://youtu.be/0LHxvxdRnYc" type="button" class="btn btn-primary">Play</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" 
+id="shang-chi" 
+tabindex="-1" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Avenger-Endgame</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/8YjFbMbfXaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Martial-arts master Shang-Chi confronts the past he thought he left behind when he's drawn into the web of the mysterious Ten Rings organization.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button href="https://youtu.be/0LHxvxdRnYc" type="button" class="btn btn-primary">Play</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </body>
+</html>
+
